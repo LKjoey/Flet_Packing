@@ -15,7 +15,7 @@
 | [web-build-and-github-pages-deploy.yml](.github/workflows/web-build-and-github-pages-deploy.yml) | static web app and deploys it to GitHub Pages                | ubuntu-latest                               |
 | [windows-build.yml](.github/workflows/windows-build.yml)     | windows app                                                  | windows-latest                              |
 
-##用法
+## 用法
 
 -选择适合您需求的工作流程，即选择对应平台的yml文件。
 
@@ -31,7 +31,7 @@
 
 -转到存储库中的Actions选项卡。如果你还没有修改文件，你应该会看到工作流正在运行，这是推送到 **main/master**分支的结果。否则，您可以通过单击“运行工作流”按钮手动触发它。
 
-##供参考
+## 供参考
 
 -根据你特定需求自定义构建命令。Docs:(flet.dev/publish)(https://flet.dev/publish)
 
