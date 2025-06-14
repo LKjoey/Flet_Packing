@@ -45,7 +45,7 @@
   
 - 您可能会在一些工作流程中发现以下内容:
 
-    - **workflow_dispatch**：用于从Actions选项卡手动触发工作流
+    - **workflow_dispatch**：用于从Actions选项卡手动触发工作流  
      
 - 在Linux上运行**flutter doctor**时出现以下错误：
 
