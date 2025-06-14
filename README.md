@@ -49,7 +49,7 @@
      
 - 在Linux上运行**flutter doctor**时出现以下错误：
 
-' ' '
+```
 
 [✗] Linux toolchain - develop for Linux desktop
     ✗ ninja is required for Linux development.
@@ -58,8 +58,8 @@
     ✗ GTK 3.0 development libraries are required for Linux development.
       They are likely available from your distribution (e.g.: apt install libgtk-3-dev)
       
-' ' '
+```
 
-一个名为 **Patch for linux build** 的步骤被添加到linux相关的 jobs/workflows 中，通过安装所需的依赖项来解决这个问题。
+  一个名为 **Patch for linux build** 的步骤被添加到linux相关的 jobs/workflows 中，通过安装所需的依赖项来解决这个问题。
 
-— 构建命令以详细模式(——verbose)运行，以提供有关构建过程的详细信息。这是非常有用的，当你需要报告一个问题在[Flet repo](https://github.com/flet-dev/flet)。
+- 构建命令以详细模式(——verbose)运行，以提供有关构建过程的详细信息。这是非常有用的，当你需要报告一个问题在[Flet repo](https://github.com/flet-dev/flet)。
