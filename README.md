@@ -45,7 +45,7 @@
   
 - 您可能会在一些工作流程中发现以下内容:
 
-      - **workflow_dispatch**：用于从Actions选项卡手动触发工作流
+    - **workflow_dispatch**：用于从Actions选项卡手动触发工作流
      
 - 在Linux上运行**flutter doctor**时出现以下错误：
 
@@ -60,7 +60,6 @@
       
 ```
 
-
     一个名为 **Patch for linux build** 的步骤被添加到linux相关的 jobs/workflows 中，通过安装所需的依赖项来解决这个问题。
 
-- 构建命令以详细模式(——verbose)运行，以提供有关构建过程的详细信息。这是非常有用的，当你需要报告一个问题在[Flet repo](https://github.com/flet-dev/flet)。
+- 构建命令以详细模式(——verbose)运行，以提供有关构建过程的详细信息。当你需要报告一个问题在[Flet repo](https://github.com/flet-dev/flet),这是非常有用的，
