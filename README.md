@@ -1,5 +1,5 @@
-# Flet_Packing
-用来打包 flet 应用
+# Flet_App_Packing
+用来打包 flet 应用至各个平台
 
 
 | File Name                                                    | Builds                                                       | Runs on                                     |
