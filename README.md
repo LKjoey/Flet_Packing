@@ -43,9 +43,9 @@
 
 - **FLET_CLI_NO_RICH_OUTPUT** 和 **UV_NO_PROGRESS** (仅在使用uv时有效)设置为 **1**，以减少构建输出的丰富和实时输出。
   
-- 您可能会在一些工作流程中发现以下内容：
+- 您可能会在一些工作流程中发现以下内容:
 
-    - **workflow_dispatch**：用于从Actions选项卡手动触发工作流
+      - **workflow_dispatch**：用于从Actions选项卡手动触发工作流
      
 - 在Linux上运行**flutter doctor**时出现以下错误：
 
@@ -59,6 +59,7 @@
       They are likely available from your distribution (e.g.: apt install libgtk-3-dev)
       
 ```
+
 
     一个名为 **Patch for linux build** 的步骤被添加到linux相关的 jobs/workflows 中，通过安装所需的依赖项来解决这个问题。
 
